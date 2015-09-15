@@ -1,0 +1,11 @@
+.navbutton
+{
+	max-width: 100%;    
+    height: auto;
+    background: transparent;
+    opacity: 0;
+}
+.navbutton:hover{
+	opacity: 1;
+	cursor: pointer;
+}
