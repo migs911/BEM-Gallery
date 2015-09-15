@@ -1,0 +1,8 @@
+.page
+{
+    background: black url(http://ww.wallsgeneration.ru/images/original/temno-goluboj-fon-[1920x1200]-[14028648].jpg) no-repeat center center fixed;
+    -moz-background-size: cover; /* Firefox 3.6+ */
+    -webkit-background-size: cover; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: cover; /* Opera 9.6+ */
+    background-size: cover; /* Современные браузеры */
+}

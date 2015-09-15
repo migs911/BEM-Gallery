@@ -1,0 +1,8 @@
+.viewer
+{
+	max-height: inherit;
+	height: auto;
+	max-width: inherit;
+	text-align: center;
+	vertical-align: middle;	
+}

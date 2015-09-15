@@ -1,3 +1,15 @@
-.image
+.image{
+	max-height: inherit;
+	max-width: inherit;
+	
+}
+.image_totalalign_center
 {
+	position:absolute;	
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	border-image-width: 0;
 }
