@@ -4,5 +4,6 @@
     left: 0;
 	top: 0;    
     bottom: 70px;
-	width: 10%; 
+	width: 10%;
+	display: none; /* пока не сделаны cookie, всегда показывается 1-я картинка */
 }
