@@ -1,0 +1,20 @@
+block('navgallery')(	
+    content()(function() {
+		var baseGalleryPath = 'gallery_preview/';
+		var pictures = [];
+		for (var i = 1; i <= 21; i++) {
+			var pathToPicture = baseGalleryPath + i + '.jpg';
+			pictures.push(pathToPicture);
+		}
+		return (pictures).map(function(picture) {
+            return { elem: 'photo', content: picture };
+        });	
+	}),
+	elem('photo')(
+		tag()('div'),		
+		attrs()({ onclick: 'return openBigPhoto(this.childNodes[0].src)' }),
+		content()(function() {
+			return { block: 'image', url: applyNext() };
+		})
+	)
+);

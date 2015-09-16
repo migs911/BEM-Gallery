@@ -1,0 +1,9 @@
+.footer:hover {
+	opacity: 1;
+}
+.footer
+{
+	position: relative;
+	top: -135px;
+	opacity: 0;
+}

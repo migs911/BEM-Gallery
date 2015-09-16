@@ -47,6 +47,14 @@ module.exports = {
 						]
 					}
 				]
+			},
+			{
+				block: 'footer',
+				content: [
+					{
+						block: 'navgallery'
+					}
+				]
 			}
 		]
 	}]

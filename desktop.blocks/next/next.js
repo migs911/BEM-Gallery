@@ -23,3 +23,11 @@ function isLastPicture(){
 function nextImagePath(str, dir, filename, ext, offset, s) {
 	return dir + ++filename + ext;
 }
+
+// !TODO в navgallery.bemhtml почему-то не срабатывает "block('navgallery').elem('photo').js()('true')"
+// НЕ БЭМ! В ручную написанная фунцкия дла обработки событий onclick в элементах navgallery__photo
+function openBigPhoto(navgalleryPhotoSource) {	
+	selectedImage.src = navgalleryPhotoSource.replace('gallery_preview', 'gallery_images');
+	previousPicture.style.display = isFirstPicture() ? 'none' : 'block';
+	nextPicture.style.display = isLastPicture() ? 'none' : 'block';
+}

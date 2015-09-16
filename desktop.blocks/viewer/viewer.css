@@ -4,5 +4,6 @@
 	height: auto;
 	max-width: inherit;
 	text-align: center;
-	vertical-align: middle;	
+	vertical-align: middle;
+	height: 100vh;
 }

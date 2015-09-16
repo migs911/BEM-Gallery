@@ -1,0 +1,18 @@
+.navgallery {
+	position: relative;
+	padding-bottom: 23px;
+	height: 100px;
+	max-height: 100px;	
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+.navgallery__photo:hover {
+	cursor: pointer;
+}
+.navgallery__photo {
+	max-height: inherit;
+	display: inline-block;
+	border: 5px solid #e4a010;
+	vertical-align: top;
+}
